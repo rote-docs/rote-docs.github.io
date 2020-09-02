@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rote Documentation on Rote Docs</title>
-    <link>https://rote-docs.github.io/</link>
+    <link>https://rote.dev/</link>
     <description>Recent content in Rote Documentation on Rote Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://rote-docs.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rote.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Search</title>
-      <link>https://rote-docs.github.io/search/</link>
+      <link>https://rote.dev/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rote-docs.github.io/search/</guid>
+      <guid>https://rote.dev/search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Getting Started</title>
-      <link>https://rote-docs.github.io/getting-started/</link>
+      <link>https://rote.dev/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rote-docs.github.io/getting-started/</guid>
+      <guid>https://rote.dev/getting-started/</guid>
       <description>If you don&amp;rsquo;t have Hugo yet, head on over to Hugo&amp;rsquo;s documentation for information on how to get it installed on your system.</description>
     </item>
     
     <item>
       <title>Mermaid</title>
-      <link>https://rote-docs.github.io/shortcodes/mermaid/</link>
+      <link>https://rote.dev/shortcodes/mermaid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rote-docs.github.io/shortcodes/mermaid/</guid>
+      <guid>https://rote.dev/shortcodes/mermaid/</guid>
       <description>The mermaid shortcode is used to embed Mermaid charts in your site&amp;rsquo;s pages. To use it, just paste your markup between {{&amp;lt; mermaid &amp;gt;}}...{{&amp;lt; /mermaid &amp;gt;}} tags.
 Examples The examples here don&amp;rsquo;t cover every possible chart type. For that, visit Mermaid&amp;rsquo;s documentation. Sequence Diagram {{&amp;lt; mermaid &amp;gt;}}sequenceDiagramparticipant Aliceparticipant BobAlice-&amp;gt;&amp;gt;John: Hello John, how are you?loop HealthcheckJohn-&amp;gt;&amp;gt;John: Fight against hypochondriaendNote right of John: Rational thoughts&amp;lt;br/&amp;gt;prevail.</description>
     </item>
     
     <item>
       <title>Notice</title>
-      <link>https://rote-docs.github.io/shortcodes/notice/</link>
+      <link>https://rote.dev/shortcodes/notice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rote-docs.github.io/shortcodes/notice/</guid>
+      <guid>https://rote.dev/shortcodes/notice/</guid>
       <description>A notice box is a highlighted area that draws attention to the content within it. You can get a default style notice by not passing any parameters:
 {{&amp;lt; notice &amp;gt;}}This is a default notice.{{&amp;lt; /notice &amp;gt;}}To change the style of the notice, you can pass one of these values in as the 1st parameter:
  primary success warning danger  {{&amp;lt; notice &amp;quot;success&amp;quot; &amp;gt;}}This is a success notice.</description>

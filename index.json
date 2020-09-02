@@ -1,6 +1,6 @@
 [
 {
-	"uri": "https://rote-docs.github.io/shortcodes/",
+	"uri": "https://rote.dev/shortcodes/",
 	"title": "Shortcodes",
 	"tags": [],
 	"description": "Documentation for the shortcodes that are included with Rote",
@@ -8,7 +8,7 @@
 	"type": "shortcodes"
 },
 {
-	"uri": "https://rote-docs.github.io/search/",
+	"uri": "https://rote.dev/search/",
 	"title": "Search",
 	"tags": [],
 	"description": "Search this documentation site",
@@ -16,7 +16,7 @@
 	"type": "page"
 },
 {
-	"uri": "https://rote-docs.github.io/categories/",
+	"uri": "https://rote.dev/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
@@ -24,7 +24,7 @@
 	"type": "categories"
 },
 {
-	"uri": "https://rote-docs.github.io/getting-started/",
+	"uri": "https://rote.dev/getting-started/",
 	"title": "Getting Started",
 	"tags": [],
 	"description": "All you need to know to get a site up and running with Hugo and Rote",
@@ -32,7 +32,7 @@
 	"type": "page"
 },
 {
-	"uri": "https://rote-docs.github.io/shortcodes/mermaid/",
+	"uri": "https://rote.dev/shortcodes/mermaid/",
 	"title": "Mermaid",
 	"tags": [],
 	"description": "Render Mermaid charts in your site",
@@ -40,7 +40,7 @@
 	"type": "shortcodes"
 },
 {
-	"uri": "https://rote-docs.github.io/shortcodes/notice/",
+	"uri": "https://rote.dev/shortcodes/notice/",
 	"title": "Notice",
 	"tags": [],
 	"description": "A notice box that draws attention to its contents",
@@ -48,7 +48,7 @@
 	"type": "shortcodes"
 },
 {
-	"uri": "https://rote-docs.github.io/",
+	"uri": "https://rote.dev/",
 	"title": "Rote Documentation",
 	"tags": [],
 	"description": "Home",
@@ -56,7 +56,7 @@
 	"type": "page"
 },
 {
-	"uri": "https://rote-docs.github.io/tags/",
+	"uri": "https://rote.dev/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

@@ -3,36 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rote-docs.github.io/shortcodes/</loc>
+    <loc>https://rote.dev/shortcodes/</loc>
   </url>
   
   <url>
-    <loc>https://rote-docs.github.io/search/</loc>
+    <loc>https://rote.dev/search/</loc>
     <priority>0.1</priority>
   </url>
   
   <url>
-    <loc>https://rote-docs.github.io/categories/</loc>
+    <loc>https://rote.dev/categories/</loc>
   </url>
   
   <url>
-    <loc>https://rote-docs.github.io/getting-started/</loc>
+    <loc>https://rote.dev/getting-started/</loc>
   </url>
   
   <url>
-    <loc>https://rote-docs.github.io/shortcodes/mermaid/</loc>
+    <loc>https://rote.dev/shortcodes/mermaid/</loc>
   </url>
   
   <url>
-    <loc>https://rote-docs.github.io/shortcodes/notice/</loc>
+    <loc>https://rote.dev/shortcodes/notice/</loc>
   </url>
   
   <url>
-    <loc>https://rote-docs.github.io/</loc>
+    <loc>https://rote.dev/</loc>
   </url>
   
   <url>
-    <loc>https://rote-docs.github.io/tags/</loc>
+    <loc>https://rote.dev/tags/</loc>
   </url>
   
 </urlset>
