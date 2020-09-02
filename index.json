@@ -1,0 +1,65 @@
+[
+{
+	"uri": "https://rote-docs.github.io/shortcodes/",
+	"title": "Shortcodes",
+	"tags": [],
+	"description": "Documentation for the shortcodes that are included with Rote",
+	"content": "",
+	"type": "shortcodes"
+},
+{
+	"uri": "https://rote-docs.github.io/search/",
+	"title": "Search",
+	"tags": [],
+	"description": "Search this documentation site",
+	"content": "",
+	"type": "page"
+},
+{
+	"uri": "https://rote-docs.github.io/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": "",
+	"type": "categories"
+},
+{
+	"uri": "https://rote-docs.github.io/getting-started/",
+	"title": "Getting Started",
+	"tags": [],
+	"description": "All you need to know to get a site up and running with Hugo and Rote",
+	"content": "If you don\u0026rsquo;t have Hugo yet, head on over to Hugo\u0026rsquo;s documentation for information on how to get it installed on your system.\n",
+	"type": "page"
+},
+{
+	"uri": "https://rote-docs.github.io/shortcodes/mermaid/",
+	"title": "Mermaid",
+	"tags": [],
+	"description": "Render Mermaid charts in your site",
+	"content": "The mermaid shortcode is used to embed Mermaid charts in your site\u0026rsquo;s pages. To use it, just paste your markup between {{\u0026lt; mermaid \u0026gt;}}...{{\u0026lt; /mermaid \u0026gt;}} tags.\nExamples The examples here don\u0026rsquo;t cover every possible chart type. For that, visit Mermaid\u0026rsquo;s documentation. Sequence Diagram {{\u0026lt; mermaid \u0026gt;}}\rsequenceDiagram\rparticipant Alice\rparticipant Bob\rAlice-\u0026gt;\u0026gt;John: Hello John, how are you?\rloop Healthcheck\rJohn-\u0026gt;\u0026gt;John: Fight against hypochondria\rend\rNote right of John: Rational thoughts\u0026lt;br/\u0026gt;prevail...\rJohn--\u0026gt;\u0026gt;Alice: Great!\rJohn-\u0026gt;\u0026gt;Bob: How about you?\rBob--\u0026gt;\u0026gt;John: Jolly good!\r{{\u0026lt; /mermaid \u0026gt;}}\rmermaid.initialize({startOnLoad:true});\r\rsequenceDiagram\rparticipant Alice\rparticipant Bob\rAlice-John: Hello John, how are you?\rloop Healthcheck\rJohn-John: Fight against hypochondria\rend\rNote right of John: Rational thoughtsprevail...\rJohn--Alice: Great!\rJohn-Bob: How about you?\rBob--John: Jolly good!\r Pie Chart {{\u0026lt; mermaid \u0026gt;}}\rpie title What Voldemort doesn't have?\r\u0026quot;FRIENDS\u0026quot; : 2\r\u0026quot;FAMILY\u0026quot; : 3\r\u0026quot;NOSE\u0026quot; : 45\r{{\u0026lt; /mermaid \u0026gt;}}\rmermaid.initialize({startOnLoad:true});\r\rpie title What Voldemort doesn't have?\r\"FRIENDS\" : 2\r\"FAMILY\" : 3\r\"NOSE\" : 45\r Flow Chart {{\u0026lt; mermaid \u0026gt;}}\rgraph LR\rA[Square Rect] -- Link text --\u0026gt; B((Circle))\rA --\u0026gt; C(Round Rect)\rB --\u0026gt; D{Rhombus}\rC --\u0026gt; D\r{{\u0026lt; /mermaid \u0026gt;}}\rmermaid.initialize({startOnLoad:true});\r\rgraph LR\rA[Square Rect] -- Link text -- B((Circle))\rA -- C(Round Rect)\rB -- D{Rhombus}\rC -- D\r ",
+	"type": "shortcodes"
+},
+{
+	"uri": "https://rote-docs.github.io/shortcodes/notice/",
+	"title": "Notice",
+	"tags": [],
+	"description": "A notice box that draws attention to its contents",
+	"content": "A notice box is a highlighted area that draws attention to the content within it. You can get a default style notice by not passing any parameters:\n{{\u0026lt; notice \u0026gt;}}\rThis is a default notice.\r{{\u0026lt; /notice \u0026gt;}}\rTo change the style of the notice, you can pass one of these values in as the 1st parameter:\n primary success warning danger  {{\u0026lt; notice \u0026quot;success\u0026quot; \u0026gt;}}\rThis is a success notice.\r{{\u0026lt; /notice \u0026gt;}}\rExamples This is a default notice. This is a primary notice. This is a success notice. This is a success notice. This is a danger notice. ",
+	"type": "shortcodes"
+},
+{
+	"uri": "https://rote-docs.github.io/",
+	"title": "Rote Documentation",
+	"tags": [],
+	"description": "Home",
+	"content": "Welcome to Rote\u0026rsquo;s documentation site!\n",
+	"type": "page"
+},
+{
+	"uri": "https://rote-docs.github.io/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": "",
+	"type": "tags"
+}]
