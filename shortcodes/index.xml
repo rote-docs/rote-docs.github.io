@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Math</title>
+      <link>https://rote.dev/shortcodes/math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rote.dev/shortcodes/math/</guid>
+      <description>The math shortcode uses MathJax to render math equations as SVG elements. To add an equation to a page, write the equation using TeX and surround it with {{&amp;lt; math &amp;gt;}}...{{&amp;lt; /math &amp;gt;}} tags.
+Example 1 {{&amp;lt; math &amp;gt;}}x = {-b \pm \sqrt{b^2-4ac} \over 2a}{{&amp;lt; /math &amp;gt;}}\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}\] Example 2 {{&amp;lt; math &amp;gt;}}\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right){{&amp;lt; /math &amp;gt;}}\[\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\] </description>
+    </item>
+    
+    <item>
       <title>Mermaid</title>
       <link>https://rote.dev/shortcodes/mermaid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
