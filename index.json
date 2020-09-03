@@ -16,6 +16,14 @@
 	"type": "page"
 },
 {
+	"uri": "https://rote.dev/credits/",
+	"title": "Credits",
+	"tags": [],
+	"description": "Read about all the awesome software that helped make this theme possible.",
+	"content": "Without the incredible open-source community, this theme wouldn\u0026rsquo;t be what it is today. Here are some of the projects that were used in Rote.\n         Hugo Of course, a Hugo theme would be nothing without Hugo itself!   UIKit A lightweight and modular front-end framework for developing fast and powerful web interfaces.   Mermaid A library for rendering all kinds of charts and diagrams on the web.   MathJax A JavaScript display engine for mathematics that works in all browsers. No more setup for readers. It just works.   Elasticlunr.js Lightweight full-text search engine in Javascript for browser search and offline search.    ",
+	"type": "page"
+},
+{
 	"uri": "https://rote.dev/categories/",
 	"title": "Categories",
 	"tags": [],
@@ -60,7 +68,7 @@
 	"title": "Rote Documentation",
 	"tags": [],
 	"description": "Home",
-	"content": "Welcome to Rote\u0026rsquo;s documentation site!\n",
+	"content": "Welcome to Rote\u0026rsquo;s documentation site! Rote is a Hugo theme that is designed from the ground-up to create beautiful documentation.\nWarning: This theme is still a work in progress and could undergo significant changes before its first stable release. ",
 	"type": "page"
 },
 {

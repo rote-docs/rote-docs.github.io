@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>Credits</title>
+      <link>https://rote.dev/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rote.dev/credits/</guid>
+      <description>Without the incredible open-source community, this theme wouldn&amp;rsquo;t be what it is today. Here are some of the projects that were used in Rote.
+         Hugo Of course, a Hugo theme would be nothing without Hugo itself!   UIKit A lightweight and modular front-end framework for developing fast and powerful web interfaces.   Mermaid A library for rendering all kinds of charts and diagrams on the web.</description>
+    </item>
+    
+    <item>
       <title>Getting Started</title>
       <link>https://rote.dev/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
