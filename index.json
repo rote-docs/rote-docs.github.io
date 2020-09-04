@@ -44,7 +44,7 @@
 	"title": "Math",
 	"tags": [],
 	"description": "Render math equations in your content",
-	"content": "The math shortcode uses MathJax to render math equations as SVG elements. To add an equation to a page, write the equation using TeX and surround it with {{\u0026lt; math \u0026gt;}}...{{\u0026lt; /math \u0026gt;}} tags.\nExample 1 {{\u0026lt; math \u0026gt;}}\rx = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}\r{{\u0026lt; /math \u0026gt;}}\r\\[\rx = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}\r\\] Example 2 {{\u0026lt; math \u0026gt;}}\r\\left( \\sum_{k=1}^n a_k b_k \\right)^2 \\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right)\r{{\u0026lt; /math \u0026gt;}}\r\\[\r\\left( \\sum_{k=1}^n a_k b_k \\right)^2 \\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right)\r\\] ",
+	"content": "The math shortcode uses MathJax to render math equations as SVG elements. To add an equation to a page, write the equation using TeX and surround it with {{\u0026lt; math \u0026gt;}}...{{\u0026lt; /math \u0026gt;}} tags.\nExample 1 {{\u0026lt; math \u0026gt;}}\rx = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}\r{{\u0026lt; /math \u0026gt;}}\r\r\\[\rx = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}\r\\]\rExample 2 {{\u0026lt; math \u0026gt;}}\r\\left( \\sum_{k=1}^n a_k b_k \\right)^2 \\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right)\r{{\u0026lt; /math \u0026gt;}}\r\r\\[\r\\left( \\sum_{k=1}^n a_k b_k \\right)^2 \\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right)\r\\]\r",
 	"type": "shortcodes"
 },
 {
