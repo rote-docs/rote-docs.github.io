@@ -12,7 +12,7 @@
 	"title": "Search",
 	"tags": [],
 	"description": "Search this documentation site",
-	"content": "",
+	"content": " ",
 	"type": "page"
 },
 {
@@ -20,7 +20,7 @@
 	"title": "Credits",
 	"tags": [],
 	"description": "Read about all the awesome software that helped make this theme possible.",
-	"content": "Without the incredible open-source community, this theme wouldn\u0026rsquo;t be what it is today. Here are some of the projects that were used in Rote.\n         Hugo Of course, a Hugo theme would be nothing without Hugo itself!   UIKit A lightweight and modular front-end framework for developing fast and powerful web interfaces.   Mermaid A library for rendering all kinds of charts and diagrams on the web.   MathJax A JavaScript display engine for mathematics that works in all browsers. No more setup for readers. It just works.   Elasticlunr.js Lightweight full-text search engine in Javascript for browser search and offline search.    ",
+	"content": "Without the incredible open-source community, this theme wouldn\u0026rsquo;t be what it is today. Here are some of the projects that were used in Rote.\nHugo Of course, a Hugo theme would be nothing without Hugo itself! UIKit A lightweight and modular front-end framework for developing fast and powerful web interfaces. Mermaid A library for rendering all kinds of charts and diagrams on the web. MathJax A JavaScript display engine for mathematics that works in all browsers. No more setup for readers. It just works. Elasticlunr.js Lightweight full-text search engine in Javascript for browser search and offline search. ",
 	"type": "page"
 },
 {
@@ -44,7 +44,7 @@
 	"title": "Math",
 	"tags": [],
 	"description": "Render math equations in your content",
-	"content": "The math shortcode uses MathJax to render math equations as SVG elements. To add an equation to a page, write the equation using TeX and surround it with {{\u0026lt; math \u0026gt;}}...{{\u0026lt; /math \u0026gt;}} tags.\nExample 1 {{\u0026lt; math \u0026gt;}}\rx = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}\r{{\u0026lt; /math \u0026gt;}}\r\r\\[\rx = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}\r\\]\rExample 2 {{\u0026lt; math \u0026gt;}}\r\\left( \\sum_{k=1}^n a_k b_k \\right)^2 \\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right)\r{{\u0026lt; /math \u0026gt;}}\r\r\\[\r\\left( \\sum_{k=1}^n a_k b_k \\right)^2 \\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right)\r\\]\r",
+	"content": "The math shortcode uses MathJax to render math equations as SVG elements. To add an equation to a page, write the equation using TeX and surround it with {{\u0026lt; math \u0026gt;}}...{{\u0026lt; /math \u0026gt;}} tags.\nExample 1 {{\u0026lt; math \u0026gt;}} x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a} {{\u0026lt; /math \u0026gt;}} \\[ x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a} \\] Example 2 {{\u0026lt; math \u0026gt;}} \\left( \\sum_{k=1}^n a_k b_k \\right)^2 \\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right) {{\u0026lt; /math \u0026gt;}} \\[ \\left( \\sum_{k=1}^n a_k b_k \\right)^2 \\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right) \\] ",
 	"type": "shortcodes"
 },
 {
@@ -52,7 +52,7 @@
 	"title": "Mermaid",
 	"tags": [],
 	"description": "Render Mermaid charts in your site",
-	"content": "The mermaid shortcode is used to embed Mermaid charts in your site\u0026rsquo;s pages. To use it, just paste your markup between {{\u0026lt; mermaid \u0026gt;}}...{{\u0026lt; /mermaid \u0026gt;}} tags.\nExamples The examples here don\u0026rsquo;t cover every possible chart type. For that, visit Mermaid\u0026rsquo;s documentation. Sequence Diagram {{\u0026lt; mermaid \u0026gt;}}\rsequenceDiagram\rparticipant Alice\rparticipant Bob\rAlice-\u0026gt;\u0026gt;John: Hello John, how are you?\rloop Healthcheck\rJohn-\u0026gt;\u0026gt;John: Fight against hypochondria\rend\rNote right of John: Rational thoughts\u0026lt;br/\u0026gt;prevail...\rJohn--\u0026gt;\u0026gt;Alice: Great!\rJohn-\u0026gt;\u0026gt;Bob: How about you?\rBob--\u0026gt;\u0026gt;John: Jolly good!\r{{\u0026lt; /mermaid \u0026gt;}}\rsequenceDiagram\rparticipant Alice\rparticipant Bob\rAlice-John: Hello John, how are you?\rloop Healthcheck\rJohn-John: Fight against hypochondria\rend\rNote right of John: Rational thoughtsprevail...\rJohn--Alice: Great!\rJohn-Bob: How about you?\rBob--John: Jolly good!\r Pie Chart {{\u0026lt; mermaid \u0026gt;}}\rpie title What Voldemort doesn't have?\r\u0026quot;FRIENDS\u0026quot; : 2\r\u0026quot;FAMILY\u0026quot; : 3\r\u0026quot;NOSE\u0026quot; : 45\r{{\u0026lt; /mermaid \u0026gt;}}\rpie title What Voldemort doesn't have?\r\"FRIENDS\" : 2\r\"FAMILY\" : 3\r\"NOSE\" : 45\r Flow Chart {{\u0026lt; mermaid \u0026gt;}}\rgraph LR\rA[Square Rect] -- Link text --\u0026gt; B((Circle))\rA --\u0026gt; C(Round Rect)\rB --\u0026gt; D{Rhombus}\rC --\u0026gt; D\r{{\u0026lt; /mermaid \u0026gt;}}\rgraph LR\rA[Square Rect] -- Link text -- B((Circle))\rA -- C(Round Rect)\rB -- D{Rhombus}\rC -- D\r ",
+	"content": "The mermaid shortcode is used to embed Mermaid charts in your site\u0026rsquo;s pages. To use it, just paste your markup between {{\u0026lt; mermaid \u0026gt;}}...{{\u0026lt; /mermaid \u0026gt;}} tags.\nExamples The examples here don\u0026rsquo;t cover every possible chart type. For that, visit Mermaid\u0026rsquo;s documentation. Sequence Diagram {{\u0026lt; mermaid \u0026gt;}} sequenceDiagram participant Alice participant Bob Alice-\u0026gt;\u0026gt;John: Hello John, how are you? loop Healthcheck John-\u0026gt;\u0026gt;John: Fight against hypochondria end Note right of John: Rational thoughts\u0026lt;br/\u0026gt;prevail... John--\u0026gt;\u0026gt;Alice: Great! John-\u0026gt;\u0026gt;Bob: How about you? Bob--\u0026gt;\u0026gt;John: Jolly good! {{\u0026lt; /mermaid \u0026gt;}} sequenceDiagram participant Alice participant Bob Alice-\u003e\u003eJohn: Hello John, how are you? loop Healthcheck John-\u003e\u003eJohn: Fight against hypochondria end Note right of John: Rational thoughtsprevail... John--\u003e\u003eAlice: Great! John-\u003e\u003eBob: How about you? Bob--\u003e\u003eJohn: Jolly good! Pie Chart {{\u0026lt; mermaid \u0026gt;}} pie title What Voldemort doesn\u0026#39;t have? \u0026#34;FRIENDS\u0026#34; : 2 \u0026#34;FAMILY\u0026#34; : 3 \u0026#34;NOSE\u0026#34; : 45 {{\u0026lt; /mermaid \u0026gt;}} pie title What Voldemort doesn't have? \"FRIENDS\" : 2 \"FAMILY\" : 3 \"NOSE\" : 45 Flow Chart {{\u0026lt; mermaid \u0026gt;}} graph LR A[Square Rect] -- Link text --\u0026gt; B((Circle)) A --\u0026gt; C(Round Rect) B --\u0026gt; D{Rhombus} C --\u0026gt; D {{\u0026lt; /mermaid \u0026gt;}} graph LR A[Square Rect] -- Link text --\u003e B((Circle)) A --\u003e C(Round Rect) B --\u003e D{Rhombus} C --\u003e D ",
 	"type": "shortcodes"
 },
 {
@@ -60,7 +60,7 @@
 	"title": "Notice",
 	"tags": [],
 	"description": "A notice box that draws attention to its contents",
-	"content": "A notice box is a highlighted area that draws attention to the content within it. You can get a default style notice by not passing any parameters:\n{{\u0026lt; notice \u0026gt;}}\rThis is a default notice.\r{{\u0026lt; /notice \u0026gt;}}\rTo change the style of the notice, you can pass one of these values in as the 1st parameter:\n primary success warning danger  {{\u0026lt; notice \u0026quot;success\u0026quot; \u0026gt;}}\rThis is a success notice.\r{{\u0026lt; /notice \u0026gt;}}\rExamples This is a default notice. This is a primary notice. This is a success notice. This is a success notice. This is a danger notice. ",
+	"content": "A notice box is a highlighted area that draws attention to the content within it. You can get a default style notice by not passing any parameters:\n{{\u0026lt; notice \u0026gt;}} This is a default notice. {{\u0026lt; /notice \u0026gt;}} To change the style of the notice, you can pass one of these values in as the 1st parameter:\nprimary success warning danger {{\u0026lt; notice \u0026#34;success\u0026#34; \u0026gt;}} This is a success notice. {{\u0026lt; /notice \u0026gt;}} Examples This is a default notice. This is a primary notice. This is a success notice. This is a success notice. This is a danger notice. ",
 	"type": "shortcodes"
 },
 {
