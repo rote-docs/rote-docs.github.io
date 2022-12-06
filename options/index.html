@@ -155,7 +155,7 @@
 
             
 
-                <li class="">
+                <li class="uk-active">
                     <a href="/options/">Theme Params</a>
                 </li>
 
@@ -289,7 +289,7 @@
 
             
 
-                <li class="uk-active">
+                <li class="">
                     <a href="/credits/">Credits</a>
                 </li>
 
@@ -334,40 +334,48 @@
                                 <div class="uk-container uk-container-small">
 
                                     
-    <h1 class="uk-article-title">Credits</h1>
+    <h1 class="uk-article-title">Theme Params</h1>
 
-    <p>Without the incredible open-source community, this theme wouldn&rsquo;t be what it is today. Here are some of the projects that were used in Rote.</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong><a href="https://gohugo.io">Hugo</a></strong></td>
-<td>Of course, a Hugo theme would be nothing without Hugo itself!</td>
-</tr>
-<tr>
-<td><strong><a href="https://getuikit.com">UIKit</a></strong></td>
-<td>A lightweight and modular front-end framework for developing fast and powerful web interfaces.</td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/mermaid-js/mermaid">Mermaid</a></strong></td>
-<td>A library for rendering all kinds of charts and diagrams on the web.</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.mathjax.org/">MathJax</a></strong></td>
-<td>A JavaScript display engine for mathematics that works in all browsers. No more setup for readers. It just works.</td>
-</tr>
-<tr>
-<td><strong><a href="http://elasticlunr.com">Elasticlunr.js</a></strong></td>
-<td>Lightweight full-text search engine in Javascript for browser search and offline search.</td>
-</tr>
-</tbody>
-</table>
-
+    <p>There are several parameters you can set that affect the appearance of the theme.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Sets the primary accent color of the theme. Used as the background color for</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># the header, and in some other places.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">primaryBackgroundColor</span> = <span style="color:#e6db74">&#34;#7649bd&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Used as the text color when text is shown on top of the primary color.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">primaryTextColor</span> = <span style="color:#e6db74">&#34;#fff&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If true, a &#34;Home&#34; page will be shown in the navigation menu for list pages.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If false, list pages are not shown in the navigation menu at all.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">showListPages</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Selects the light or dark variant of the theme. Value must be &#34;light&#34; or</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># &#34;dark&#34;.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">themeVariant</span> = <span style="color:#e6db74">&#34;dark&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 
 
                                 </div>
@@ -435,7 +443,7 @@
 
             
 
-                <li class="">
+                <li class="uk-active">
                     <a href="/options/">Theme Params</a>
                 </li>
 
@@ -569,7 +577,7 @@
 
             
 
-                <li class="uk-active">
+                <li class="">
                     <a href="/credits/">Credits</a>
                 </li>
 

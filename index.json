@@ -1,5 +1,13 @@
 [
 {
+	"uri": "https://rote.dev/options/",
+	"title": "Theme Params",
+	"tags": [],
+	"description": "Options that allow you to change the look of the theme.",
+	"content": "There are several parameters you can set that affect the appearance of the theme.\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 [params] # Sets the primary accent color of the theme. Used as the background color for # the header, and in some other places. primaryBackgroundColor = \u0026#34;#7649bd\u0026#34; # Used as the text color when text is shown on top of the primary color. primaryTextColor = \u0026#34;#fff\u0026#34; # If true, a \u0026#34;Home\u0026#34; page will be shown in the navigation menu for list pages. # If false, list pages are not shown in the navigation menu at all. showListPages = false # Selects the light or dark variant of the theme. Value must be \u0026#34;light\u0026#34; or # \u0026#34;dark\u0026#34;. themeVariant = \u0026#34;dark\u0026#34; ",
+	"type": "page"
+},
+{
 	"uri": "https://rote.dev/shortcodes/",
 	"title": "Shortcodes",
 	"tags": [],
@@ -36,7 +44,7 @@
 	"title": "Getting Started",
 	"tags": [],
 	"description": "All you need to know to get a site up and running with Hugo and Rote",
-	"content": "If you don\u0026rsquo;t have Hugo yet, head on over to Hugo\u0026rsquo;s documentation for information on how to get it installed on your system.\n",
+	"content": "If you don\u0026rsquo;t have Hugo yet, head on over to Hugo\u0026rsquo;s documentation for information on how to get it installed on your system.\nOnce you have Hugo installed, you can create a new site with this theme by running the following commands.\nThe commands below should work for Linux and MacOS, but probably won\u0026rsquo;t for Windows users. 1 2 3 4 5 6 hugo new site mysite cd mysite git init git submodule add https://github.com/rote-docs/rote.git themes/rote cp -r themes/rote/exampleSite/* . hugo server Once the above commands have completed, you should have a (mostly) blank Hugo site to start working with.\n",
 	"type": "page"
 },
 {
@@ -44,7 +52,7 @@
 	"title": "Math",
 	"tags": [],
 	"description": "Render math equations in your content",
-	"content": "The math shortcode uses MathJax to render math equations as SVG elements. To add an equation to a page, write the equation using TeX and surround it with {{\u0026lt; math \u0026gt;}}...{{\u0026lt; /math \u0026gt;}} tags.\nExample 1 {{\u0026lt; math \u0026gt;}} x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a} {{\u0026lt; /math \u0026gt;}} \\[ x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a} \\] Example 2 {{\u0026lt; math \u0026gt;}} \\left( \\sum_{k=1}^n a_k b_k \\right)^2 \\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right) {{\u0026lt; /math \u0026gt;}} \\[ \\left( \\sum_{k=1}^n a_k b_k \\right)^2 \\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right) \\] ",
+	"content": "The math shortcode uses MathJax to render math equations as SVG elements. To add an equation to a page, write the equation using TeX and surround it with {{\u0026lt; math \u0026gt;}}...{{\u0026lt; /math \u0026gt;}} tags.\nExample 1 1 2 3 {{\u0026lt; math \u0026gt;}} x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a} {{\u0026lt; /math \u0026gt;}} \\[ x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a} \\] Example 2 1 2 3 4 5 6 {{\u0026lt; math \u0026gt;}} \\left( \\sum_{k=1}^n a_k b_k \\right)^2 \\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right) {{\u0026lt; /math \u0026gt;}} \\[ \\left( \\sum_{k=1}^n a_k b_k \\right)^2 \\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right) \\] ",
 	"type": "shortcodes"
 },
 {
@@ -52,7 +60,7 @@
 	"title": "Mermaid",
 	"tags": [],
 	"description": "Render Mermaid charts in your site",
-	"content": "The mermaid shortcode is used to embed Mermaid charts in your site\u0026rsquo;s pages. To use it, just paste your markup between {{\u0026lt; mermaid \u0026gt;}}...{{\u0026lt; /mermaid \u0026gt;}} tags.\nExamples The examples here don\u0026rsquo;t cover every possible chart type. For that, visit Mermaid\u0026rsquo;s documentation. Sequence Diagram {{\u0026lt; mermaid \u0026gt;}} sequenceDiagram participant Alice participant Bob Alice-\u0026gt;\u0026gt;John: Hello John, how are you? loop Healthcheck John-\u0026gt;\u0026gt;John: Fight against hypochondria end Note right of John: Rational thoughts\u0026lt;br/\u0026gt;prevail... John--\u0026gt;\u0026gt;Alice: Great! John-\u0026gt;\u0026gt;Bob: How about you? Bob--\u0026gt;\u0026gt;John: Jolly good! {{\u0026lt; /mermaid \u0026gt;}} sequenceDiagram participant Alice participant Bob Alice-\u003e\u003eJohn: Hello John, how are you? loop Healthcheck John-\u003e\u003eJohn: Fight against hypochondria end Note right of John: Rational thoughtsprevail... John--\u003e\u003eAlice: Great! John-\u003e\u003eBob: How about you? Bob--\u003e\u003eJohn: Jolly good! Pie Chart {{\u0026lt; mermaid \u0026gt;}} pie title What Voldemort doesn\u0026#39;t have? \u0026#34;FRIENDS\u0026#34; : 2 \u0026#34;FAMILY\u0026#34; : 3 \u0026#34;NOSE\u0026#34; : 45 {{\u0026lt; /mermaid \u0026gt;}} pie title What Voldemort doesn't have? \"FRIENDS\" : 2 \"FAMILY\" : 3 \"NOSE\" : 45 Flow Chart {{\u0026lt; mermaid \u0026gt;}} graph LR A[Square Rect] -- Link text --\u0026gt; B((Circle)) A --\u0026gt; C(Round Rect) B --\u0026gt; D{Rhombus} C --\u0026gt; D {{\u0026lt; /mermaid \u0026gt;}} graph LR A[Square Rect] -- Link text --\u003e B((Circle)) A --\u003e C(Round Rect) B --\u003e D{Rhombus} C --\u003e D ",
+	"content": "The mermaid shortcode is used to embed Mermaid charts in your site\u0026rsquo;s pages. To use it, just paste your markup between {{\u0026lt; mermaid \u0026gt;}}...{{\u0026lt; /mermaid \u0026gt;}} tags.\nExamples The examples here don\u0026rsquo;t cover every possible chart type. For that, visit Mermaid\u0026rsquo;s documentation. Sequence Diagram 1 2 3 4 5 6 7 8 9 10 11 12 13 {{\u0026lt; mermaid \u0026gt;}} sequenceDiagram participant Alice participant Bob Alice-\u0026gt;\u0026gt;John: Hello John, how are you? loop Healthcheck John-\u0026gt;\u0026gt;John: Fight against hypochondria end Note right of John: Rational thoughts\u0026lt;br/\u0026gt;prevail... John--\u0026gt;\u0026gt;Alice: Great! John-\u0026gt;\u0026gt;Bob: How about you? Bob--\u0026gt;\u0026gt;John: Jolly good! {{\u0026lt; /mermaid \u0026gt;}} sequenceDiagram participant Alice participant Bob Alice-\u003e\u003eJohn: Hello John, how are you? loop Healthcheck John-\u003e\u003eJohn: Fight against hypochondria end Note right of John: Rational thoughtsprevail... John--\u003e\u003eAlice: Great! John-\u003e\u003eBob: How about you? Bob--\u003e\u003eJohn: Jolly good! Pie Chart 1 2 3 4 5 6 {{\u0026lt; mermaid \u0026gt;}} pie title What Voldemort doesn\u0026#39;t have? \u0026#34;FRIENDS\u0026#34; : 2 \u0026#34;FAMILY\u0026#34; : 3 \u0026#34;NOSE\u0026#34; : 45 {{\u0026lt; /mermaid \u0026gt;}} pie title What Voldemort doesn't have? \"FRIENDS\" : 2 \"FAMILY\" : 3 \"NOSE\" : 45 Flow Chart 1 2 3 4 5 6 7 {{\u0026lt; mermaid \u0026gt;}} graph LR A[Square Rect] -- Link text --\u0026gt; B((Circle)) A --\u0026gt; C(Round Rect) B --\u0026gt; D{Rhombus} C --\u0026gt; D {{\u0026lt; /mermaid \u0026gt;}} graph LR A[Square Rect] -- Link text --\u003e B((Circle)) A --\u003e C(Round Rect) B --\u003e D{Rhombus} C --\u003e D ",
 	"type": "shortcodes"
 },
 {
@@ -60,7 +68,7 @@
 	"title": "Notice",
 	"tags": [],
 	"description": "A notice box that draws attention to its contents",
-	"content": "A notice box is a highlighted area that draws attention to the content within it. You can get a default style notice by not passing any parameters:\n{{\u0026lt; notice \u0026gt;}} This is a default notice. {{\u0026lt; /notice \u0026gt;}} To change the style of the notice, you can pass one of these values in as the 1st parameter:\nprimary success warning danger {{\u0026lt; notice \u0026#34;success\u0026#34; \u0026gt;}} This is a success notice. {{\u0026lt; /notice \u0026gt;}} Examples This is a default notice. This is a primary notice. This is a success notice. This is a success notice. This is a danger notice. ",
+	"content": "A notice box is a highlighted area that draws attention to the content within it. You can get a default style notice by not passing any parameters:\n1 2 3 {{\u0026lt; notice \u0026gt;}} This is a default notice. {{\u0026lt; /notice \u0026gt;}} To change the style of the notice, you can pass one of these values in as the 1st parameter:\nprimary success warning danger 1 2 3 {{\u0026lt; notice \u0026#34;success\u0026#34; \u0026gt;}} This is a success notice. {{\u0026lt; /notice \u0026gt;}} Examples This is a default notice. This is a primary notice. This is a success notice. This is a success notice. This is a danger notice. ",
 	"type": "shortcodes"
 },
 {
